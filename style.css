@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+.sfr-main{
+    width: 1440px;
+    height: 1046px;
+    box-sizing: border-box;
+    padding: 91px 124px 157px 124px;
+}
+.sfr-up{
+    display: flex;
+}
+.sfr-h1{
+    width: 365px;
+    height: 93px;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 0;
+    margin: 0 0 18px 0;
+    line-height: 55.76px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+}
+.sfr-paragraph{
+    width: 662px;
+    height: 374px;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0;
+    margin: 0 190px 0 0;
+    line-height: 36px;
+}
+.sfr-text1{
+    padding: 0;
+    margin: 0;
+}
+.sfr-text2{
+    padding-top: 12px;
+}
+.sfr-image-first, .sfr-image-second{
+    display: block;
+    position: relative;
+}
+.sfr-img1{
+    width: 314px;
+    height: 315px;
+    margin-top: 24px;
+}
+.sfr-elps1{
+    width: 366px;
+    height: 59px;
+    position: absolute;
+    left: -26px;
+    bottom: 5px;
+    z-index: -1;
+}
+.sfr-down{
+    display: flex;
+    margin-top: 94px;
+}
+.sfr-img2{
+    width: 232px;
+    height: 203px;
+    margin-right: 132px;
+}
+.sfr-elps2{
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    left: 33px;
+    bottom: -16px;
+    z-index: -1;
+}
+.sfr-info{
+    margin-top: 70px;
+}
+.sfr-exercises{
+margin-right: 95px;
+}
+.sfr-hours{
+    margin-right: 93px;
+}
+.sfr-h3{
+    width: 150px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32.5px;
+    padding: 0;
+    margin: 0 0 1px 0;
+}
+.sfr-p{
+    width: 150px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    padding-top: 1px;
+    margin: 0;
+}
+@media screen and (min-width: 830px) and (max-width: 1399px) {
+    .sfr-main{
+        width: 834px;
+        height: 633px;
+        box-sizing: border-box;
+        padding: 85px 71.63px 180.05px 72px;
+    }
+    .sfr-up{
+        display: flex;
+    }
+    .sfr-h1{
+        width: 211.4px;
+        height: 53.86px;
+        font-weight: 700;
+        font-size: 32px;
+        padding: 0;
+        margin: 0 0 10.42px 0;
+        line-height: 32.44px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .sfr-paragraph{
+        width: 383.41px;
+        height: 216.61px;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0;
+        margin: 0 110.04px 0 0;
+        line-height: 21px;
+    }
+    .sfr-text1{
+        padding: 0;
+        margin: 0;
+    }
+    .sfr-text2{
+        padding-top: 8px;
+    }
+    .sfr-image-first,{
+        position: relative;
+    }
+    .sfr-image-second{
+        display: none;
+    }
+    .sfr-img1{
+        width: 181.86px;
+        height: 182.44px;
+        margin-top: 14px;
+    }
+    img{
+        width: 100%;
+    }
+    .sfr-elps1{
+        width: 211.98px;
+        height: 34.17px;
+        position: absolute;
+        right: 1px;
+        bottom: 4px;
+        z-index: -1;
+    }
+    .sfr-down{
+        display: flex;
+        margin-top: 1px;
+    }
+    .sfr-exercises{
+    margin-right: 55.02px;
+    }
+    .sfr-hours{
+        margin-right: 32.53px;
+    }
+    .sfr-h3{
+        width: 86.88px;
+        height: 22.59px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19.5px;
+        padding: 0;
+        margin: 0 0 0.58px 0;
+    }
+    .sfr-p{
+        width: 86.88px;
+        height: 22.59px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14.3px;
+        margin: 0;
+    }
+    .sfr-chasa{
+        width: 108px;
+        height: 23px;
+    }
+}
+@media (max-width: 829px) {
+    .sfr-main{
+        width: 375px;
+        height: 776px;
+        box-sizing: border-box;
+        padding: 56px 71.63px 124px 35px;
+    }
+    .sfr-up{
+        display: block;
+        margin-left: 1px;
+    }
+    .sfr-h1{
+        width: 170.08px;
+        height: 43.34px;
+        font-weight: 700;
+        font-size: 26px;
+        padding: 0;
+        margin: 0 0 9px 1px;
+        line-height: 26.36px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .sfr-paragraph{
+        width: 308.47px;
+        height: 174.27px;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        line-height: 18px;
+    }
+    .sfr-text1{
+        padding: 0;
+        margin: 0;
+    }
+    .sfr-text2{
+        padding-top: 6px;
+    }
+    .sfr-image-first,{
+        display: block;
+        position: relative;
+    }
+    .sfr-image-second{
+        display: none;
+    }
+    .sfr-img1{
+        width: 170.55px;
+        height: 130px;
+        margin-top: 55px;
+        margin-left: 77px;
+    }
+    .img1{
+        width: 86%;
+    }
+    .elps1{
+        width: 100%;
+    }
+    .sfr-elps1{
+        width: 170.55px;
+        height: 160.29px;
+        position: absolute;
+        left: 65px;
+        top: 134px;
+        z-index: -1;
+    }
+    .sfr-down{
+        display: flex;
+        margin-top: 7px;
+        flex-wrap: wrap;
+    }
+    .sfr-exercises{
+    margin-right: 35px;
+    }
+    .sfr-hours{
+        margin-right: 35px;
+    }
+    .sfr-h3{
+        width: 69.9px;
+        height: 18.17px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15.6px;
+        padding: 0;
+        margin: 0;
+    }
+    .sfr-ex, .sfr-ho{
+        margin-top: 24px;
+    }
+    .sfr-p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+        margin: 0;
+        padding: 0;
+    }
+    .sfr-zanyatiya{
+        width: 84px;
+        height: 8px;
+    }
+    .sfr-chasa{
+        width: 86.89px;
+        height: 8.5px;
+    }
+    .sfr-nedeli{
+        width: 76px;
+        height: 18px;
+    }
+    .sfr-info{
+        margin-top: 46px;
+    }
+}
